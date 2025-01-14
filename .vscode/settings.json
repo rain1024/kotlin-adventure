@@ -1,0 +1,12 @@
+{
+  "code-runner.executorMap": {
+    "kotlin": "cd $dir && kotlinc $fileName -d build && java -cp build HelloWorldKt"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "kotlin.debugAdapter.enabled": true,
+  "kotlin.languageServer.enabled": true,
+  "kotlin.debugAdapter.path": "",
+  "debug.openDebug": "openOnDebugBreak",
+  "debug.internalConsoleOptions": "openOnSessionStart"
+}
