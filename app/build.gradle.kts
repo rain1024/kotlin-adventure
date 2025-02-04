@@ -79,9 +79,9 @@ tasks.register<JavaExec>("runCoroutineApp5") {
     classpath = sourceSets["main"].runtimeClasspath
 }
 
-tasks.register<JavaExec>("runCoroutineExample1") {
+tasks.register<JavaExec>("runUsingCoroutinesExample1") {
     group = "application"
-    mainClass = "com.vuanhshow.coroutines.examples.CoroutineExample1Kt"
+    mainClass = "com.vuanhshow.coroutines.examples.using_coroutines.Example1Kt"
     classpath = sourceSets["main"].runtimeClasspath
 }
 

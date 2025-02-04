@@ -1,4 +1,4 @@
-package com.vuanhshow.coroutines.examples
+package com.vuanhshow.coroutines.examples.using_coroutines
 
 import kotlinx.coroutines.*
 
