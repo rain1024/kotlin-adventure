@@ -1,0 +1,22 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Kotlin Debug",
+      "type": "shell",
+      "command": "mkdir -p build && kotlinc",
+      "args": ["HelloWorld.kt", "-include-runtime", "-d", "build"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
