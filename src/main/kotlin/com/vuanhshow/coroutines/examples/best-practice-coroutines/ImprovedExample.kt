@@ -1,4 +1,4 @@
-package com.vuanhshow.coroutines
+package com.vuanhshow.coroutines.examples.best_practice_coroutines
 
 import kotlin.system.measureTimeMillis
 import kotlinx.coroutines.*
